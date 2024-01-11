@@ -1,0 +1,723 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Avenir, sans-serif;
+}
+.header{
+padding-top: 2%;
+    background-color: #ccffff;
+}
+header {
+background-color: #9999ff;
+}
+.img {
+    display: block;
+    width: 30%;
+    margin: auto;
+}
+hr {
+	height: 1px;
+	border: 0;
+	color: black;
+	background-color: black;
+	}
+    
+    nav{
+        width: 100%;
+        margin: 0 auto;
+        background-color: #9999ff;
+        top: 0px;
+        padding-bottom: 3%;
+    }
+    
+    nav ul{
+        list-style-type: none;
+    }
+    
+    nav ul li{
+        font-size:10px;
+        padding-left: 20%;
+        margin-right: 20%;
+        position: relative;
+    }
+    
+    nav ul::after{
+        content: "";
+        display: table;
+        clear: both;
+    }
+    
+    nav a{
+        display: block;
+        text-decoration: none;
+        color: black;
+        border-top: 2px solid rgb(219, 219, 219);
+        padding: 10px 0px;
+    }
+    
+    .sous{
+        display: none;
+        box-shadow: 0px 1px 2px #ffffff;
+        background-color: rgb(193, 193, 193);
+        position: absolute;
+        width: 20%;
+        z-index: 1000;
+    }
+    nav > ul li:hover .sous{
+        display: block;
+        margin-left: 0%;
+    }
+    .sous li{
+        float: none;
+        width: 50%;
+    }
+    .sous a{
+        padding: 10px;
+        font-size:200%;
+    }
+    .sous a:hover{
+        color: red;
+        background-color: RGBa(200,200,200,0.1);
+    }
+    .deroulant > a::after{
+        content:" ▼";
+        font-size: 7px;
+    }
+    
+    .conteneur{
+      margin: 50px 20px;
+      height: 1500px;
+    }
+    hr {
+        height: 2px;
+        border: 0;
+        color: black;
+        background-color: black;
+        }
+div #logo {
+    padding-top: 5%;
+    margin-left: 30%;
+}
+.div1{
+    background-color: #ccffff;
+
+}
+.div1 #img {
+    padding-top: 5%;
+    width: 70%;
+    height: 70%;
+    margin-left : 15%;
+    padding-bottom:15%
+}
+.flamme {
+    width: 700px;
+    height: 200px;
+    background: #9999ff;
+    margin-left: 15%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+  }
+  .flamme #lol {
+    color:aliceblue;
+    font-size: 30px;
+    margin-left: 25%;
+    padding-top:5%;
+    font-weight: bold;
+  }
+  .flamme #imgcamps{
+margin-left: 1%;
+margin-top: -14%;
+height: 160px;
+width:130px;
+    }
+.flamme #lil {
+    color:#8a7f75;
+    font-size: 22px;
+}
+.flamme2 i {
+    color: rgb(204, 28, 28);
+    font-size: 25px;
+}
+.flamme2 {
+    width: 700px;
+    height: 200px;
+    background: #9999ff;
+    margin-left: 15%;
+    margin-top: 23%;
+    margin-bottom: 0%;
+    }
+.flamme2 i {
+    color: rgb(204, 28, 28);
+    font-size: 25px;
+}
+.flamme2 #lil {
+    color:#8a7f75;
+    font-size: 22px;
+}
+.flamme2 #lol {
+    color:aliceblue;
+    font-size: 30px;
+    margin-left: 25%;
+    padding-top:5%;
+    font-weight: bold;
+    }
+    .flamme i {
+        color: rgb(204, 28, 28);
+        font-size: 25px; }
+        .flamme2 #imgcamps{
+            margin-left: 1%;
+            margin-top: -14%;
+            height: 160px;
+            width:130px;
+            }
+            .flamme3 i {
+                color: rgb(204, 28, 28);
+                font-size: 25px;
+            }
+            .flamme3 {
+                width: 700px;
+                height: 200px;
+                background: #9999ff;
+                margin-left: 15%;
+                margin-top: 23%;
+                margin-bottom: 2%;
+                }
+            .flamme3 i {
+                color: rgb(204, 28, 28);
+                font-size: 25px;
+         
+            }
+            .flamme3 #lil {
+                color:#8a7f75;
+                font-size: 20px;
+            }
+            .flamme3 #lol {
+                color:aliceblue;
+                font-size: 30px;
+                margin-left: 25%;
+                padding-top:5%;
+                font-weight: bold;
+                }
+                .flamme3 #imgcamps{
+                    margin-left: 1%;
+                    margin-top: -14%;
+                    height: 160px;
+                    width:130px;
+                    }
+                    .flamme3 .ecriture{
+                        padding-bottom: 30%;
+
+                        }
+    .dest{
+        padding-top: 20%;
+        margin-left:15%;
+        font-size: 15px;
+        padding-right: 20%;
+    }
+    .dest hr{
+        background-color: #e1dede;
+    }
+    .dest img{
+        margin-top: 5%;
+        height: 300px;
+        border: 3px solid #e1dede;
+        padding: 3%;
+    }
+    .dest h3 {
+
+        font-size: 10px;
+        padding-bottom: 0%;
+    }
+    .aboutus{
+        background-color: #ccffff;
+    }
+    .new{
+        padding-top: 5%;
+        margin-left:15%;
+        padding-right: 20%;
+        
+    }
+    .new hr {
+        background-color: #e1dede;
+    }
+    .new p{
+        padding-top: 5%;
+        color: #73756d;
+        font-size: 7px;
+    }
+    .new i{
+        font-size : 12px;
+    }
+    .why{
+        padding-top: 5%;
+        padding-bottom: 2%;
+        margin-left:15%;
+        padding-right: 20%;
+        
+    }
+    .why hr {
+        background-color: #e1dede;
+    }
+    .why p{
+        padding-top: 5%;
+        color: #73756d;
+        font-size: 7px;
+    }
+    .why i{
+        font-size : 12px;
+    }
+    .how{
+        padding-top: 5%;
+        margin-left:15%;
+        padding-right: 20%;
+        
+    }
+    .how hr {
+        background-color: #e1dede;
+    }
+    .how p{
+        padding-top: 5%;
+        color: #73756d;
+        font-size: 7px;
+    }
+    .how i{
+        font-size : 12px;
+    }
+.boussole {
+margin-left: 20%;
+margin-bottom: 5%;
+}
+.bouss {
+    margin-top: -20%;
+}
+.carte {
+    margin-left: 20%;
+    }
+    .car {
+        margin-top: -15%;
+        margin-left: -2%;
+    }
+    .velo {
+        margin-left: 20%;
+        }
+        .vel {
+            margin-top: -15%;
+            margin-left: -2%;
+            margin-bottom: 10%;
+        }
+
+.boutton {
+    height:60px;
+    width:140px;
+    margin-top: 3%;
+    margin-bottom : 20%;
+    font-size: 30px;
+    background-color: rgb(138, 197, 138);
+}
+footer{
+    background-color: #9999ff;
+    padding-bottom: 10%;
+    padding-top: 12%;
+    padding-left: 11%;
+}
+footer a{
+    font-size: 21px;
+    color:black;
+    text-decoration:none;
+    font-weight:bold;
+    margin-top: 5%;
+    margin-left :4%;
+    padding-right : 7%;
+
+}
+footer p{
+    color:#5a5550;
+    font-size: 7px;
+    margin-top: 5%;
+    margin-left :4%;
+    padding-right : 7%;
+}
+.lol1{
+    background-color: #ccffff;
+}
+
+@media only screen and (min-device-width : 760px) {
+    nav ul li{
+        font-size: 18px;
+        padding-left: 4%;
+        margin-right: 0%;
+        display :inline;
+        text-align: center;
+        font-weight: bold;
+        
+    }
+    nav a{
+        display: flex;
+        text-decoration: none;
+        color: black;
+        border-top: none;
+    }
+       nav ul{
+        list-style-type: none;
+        display: flex;
+        padding-left: 10%;
+        margin-right: 0%;
+        display :flex;
+    }
+    div #logo {
+        padding-top: 2%;
+        margin-left: 5%;
+    }
+    .div1 #img {
+        padding-top: 3%;
+        width: 89%;
+        margin-left: 5%;
+        padding-bottom: 5%;
+    }
+    hr {
+        height: 1px;
+        border: 0;
+        color: black;
+        background-color: black;
+        }
+        .flamme {
+            width: 300px;
+            height: 140px;
+            background: #9999ff;
+            margin-left: 3%;
+            margin-top: 5%;
+            margin-bottom: 2%;
+        }
+        .flamme #lol {
+            color: aliceblue;
+            font-size: 20px;
+            margin-left: 25%;
+            padding-top: 5%;
+            font-weight: bold;
+        }
+        .flamme #imgcamps {
+            margin-left: 1%;
+            margin-top: -14%;
+            height: 100px;
+            width: 80px;
+        }
+        .flamme2 {
+            width: 300px;
+            height: 140px;
+            background: #9999ff;
+            margin-left: 35%;
+            margin-top: -16%;
+            margin-bottom: 0%;
+        }
+        .flamme2 #lol {
+            color: aliceblue;
+            font-size: 20px;
+            margin-left: 25%;
+            padding-top: 5%;
+            font-weight: bold;
+        }
+        .flamme2 #imgcamps {
+            margin-left: 1%;
+            margin-top: -14%;
+            height: 100px;
+            width: 80px;
+        }
+        .flamme3 {
+            width: 300px;
+            height: 140px;
+            background: #9999ff;
+            margin-left: 67%;
+            margin-top: -14%;
+            margin-bottom: 40%;
+        }
+        .flamme3 #lol {
+            color: aliceblue;
+            font-size: 20px;
+            margin-left: 25%;
+            padding-top: 5%;
+            font-weight: bold;
+        }
+        .flamme3 #imgcamps {
+            margin-left: 1%;
+            margin-top: -14%;
+            height: 100px;
+            width: 80px;
+        }
+        .flamme #lil {
+            color: #8a7f75;
+            font-size: 20px;
+        }
+        .flamme2 #lil {
+            color: #8a7f75;
+            font-size: 20px;
+        }
+        .flamme3 #lil {
+            color: #8a7f75;
+            font-size: 20px;
+        }
+
+        .dest {
+            padding-top: 10%;
+            margin-left: 3%;
+            font-size: 15px;
+            padding-right: 50%;
+        }
+        .lol{
+            display :flex;
+        }
+        .dest img {
+            margin-top: 5%;
+            height: 140px;
+            border: 3px solid #e1dede;
+            padding: 1%;
+            display :flex;
+    }
+    .dest h3{
+        padding-top: 0%;
+        padding-bottom: 0%;
+        display:flex;
+        padding-right: -50%;
+        font-size: 20px;
+   
+    }
+    .wesh{
+        padding-left:5%;
+        padding-top:5%;
+    }
+    .new p{
+            padding-top: 3%;
+            padding-right: 48%;
+            margin-left: 5%;
+            color: #73756d;
+            font-size: 17px;
+        }
+
+    .aboutus{
+        padding-bottom: 0%;
+    }
+    .new {
+        padding-top: 5%;
+        margin-left: 3%;
+        margin: 10px 0px;
+    height: 250px;
+    padding-right: 0%;
+    }
+    .aboutus{
+        display:flex;
+        
+    }
+
+    .bouss {
+            margin-top: 0%;
+            margin-right: 4%;
+    }
+    .why p{
+        margin-right: -39%;
+        padding-top: 0%;
+        padding-right: -38%;
+        color: #73756d;
+        font-size: 12px;
+        }
+        
+        .why{
+                padding-top: 6%;
+                padding-bottom: 2%;
+                margin-left: -34%;
+                padding-right: 13%;
+            }
+            .aboutus #boussole{
+                display: flex;
+                height: 128px;
+                margin-left: -47%;
+                margin-top: -67%;
+            
+            }
+            .carte p{
+                    padding-top: 13%;
+                    padding-right: 0%;
+                    color: #73756d;
+                    font-size: 11px;
+                }
+                
+            
+            .vel {
+                margin-top: -49%;
+                margin-left: -39%;
+                margin-bottom: 50%;
+            
+            }
+            .car {
+               
+                    margin-top: -38%;
+                    margin-left: -47%;
+                }
+                .how i {
+                    font-size: 24px;
+                }
+                .why i {
+                    font-size: 23px;
+                }
+                .new i {
+                    font-size: 24px;
+                    margin-left: 5%;
+                }
+                .how p {
+                    padding-top: 4%;
+                    color: #73756d;
+                    font-size: 14px;
+                }
+                footer {
+                    background-color: #9999ff;
+                    padding-bottom: 4%;
+                    padding-top: 3%;
+                    padding-left: 0%;
+                }
+                footer a {
+                    font-size: 15px;
+                    color: black;
+                    text-decoration: none;
+                    font-weight: bold;
+                    margin-top: 5%;
+                    margin-left: 4%;
+                    padding-right: 1%;
+                }
+                footer p {
+                    color: #5a5550;
+                    font-size: 11px;
+                    margin-top: 5%;
+                    margin-left: 4%;
+                    padding-right: 11%;
+                }
+                .sous a {
+                    padding: 10px;
+                    font-size: 111%;
+                }
+                .sous {
+                    display: none;
+                    box-shadow: 0px 1px 2px #ffffff;
+                    background-color: rgb(193, 193, 193);
+                    position: absolute;
+                    width: 66%;
+                    z-index: 1000;
+                }
+            }
+            @media only screen and (min-device-width : 1024px) {
+                .how {
+                    padding-top: 17%;
+                    margin-left: 15%;
+                    padding-right: 20%;
+                }
+                .why p {
+                    margin-right: -39%;
+                    padding-top: 20%;
+                    padding-right: -38%;
+                    color: #73756d;
+                    font-size: 15px;
+                }
+                .why {
+                    padding-top: 6%;
+                    padding-bottom: 2%;
+                    margin-left: -34%;
+                    padding-right: 13%;
+                }
+                .vel {
+                    margin-top: -33%;
+                    margin-left: -31%;
+                    margin-bottom: -24%;
+                }
+                .car {
+                    margin-top: -38%;
+                    margin-left: 6%;
+                    margin-left: -34%;
+                }
+                .aboutus #boussole {
+                    display: flex;
+                    height: 128px;
+                    margin-left: -36%;
+                    margin-top: -52%;
+                }
+            }
+            @media only screen and (min-device-width : 1300px) {
+                .flamme3 {
+                    width: 300px;
+                    height: 140px;
+                    background: #9999ff;
+                    margin-left: 67%;
+                    margin-top: -10%;
+                    margin-bottom: 23%;
+                }
+            .flamme2 {
+                width: 300px;
+                height: 140px;
+                background: #9999ff;
+                margin-left: 35%;
+                margin-top: -11%;
+                margin-bottom: 0%;
+            }
+            .flamme #lil {
+                color: #8a7f75;
+                font-size: 17px;
+            }
+            .flamme2 #lil {
+                color: #8a7f75;
+                font-size: 17px;
+            }
+            .flamme3 #lil {
+                color: #8a7f75;
+                font-size: 17px;
+            }
+            .flamme {
+                width: 396px;
+                height: 136px;
+                background: #9999ff;
+                margin-left: 3%;
+                margin-top: 5%;
+                margin-bottom: 1%;
+            }
+            .flamme2 {
+                width: 389px;
+                height: 140px;
+                background: #9999ff;
+                margin-left: 35%;
+                margin-top: -11%;
+                margin-bottom: 0%;
+            }
+            .flamme3 {
+                width: 397px;
+                height: 140px;
+                background: #9999ff;
+                margin-left: 67%;
+                margin-top: -10%;
+                margin-bottom: 23%;
+            }
+            .dest {
+
+                    padding-top: 1%;
+                    margin-left: 3%;
+                    font-size: 18px;
+                    padding-right: 50%;
+                    margin-bottom: 5%;
+                }
+            
+            .dest img {
+                margin-top: 5%;
+                height: 188px;
+                border: 3px solid #e1dede;
+                padding: 1%;
+                display: flex;
+            }
+            nav > ul li:hover .sous {
+                display: block;
+                margin-left: -35%;
+            }
+            .sous {
+                display: none;
+                box-shadow: 0px 1px 2px #ffffff;
+                background-color: rgb(193, 193, 193);
+                position: absolute;
+                width: 77%;
+                z-index: 1000;
+            }
+        }
+            
+    
